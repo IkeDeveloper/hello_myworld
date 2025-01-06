@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class AlloyPickUps : PlayerCollectables, ICollectable
+{
+
+    [SerializeField]
+    private float bonusincrement;
+
+    [SerializeField]
+    private float incrementscore;
+
+    public override void ItemCollected()
+    {
+        player.Inc_score(incrementscore);
+        GameManager.instance.bonustime(bonusincrement);
+    }
+}
