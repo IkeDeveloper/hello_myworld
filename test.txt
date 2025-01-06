@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //This file is the amended version06
+=======
+//This file is the amended version02
+>>>>>>> efeb29fc68a2c61a3abe21dc9e4a0b634d03ac51
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
