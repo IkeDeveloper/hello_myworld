@@ -1,5 +1,6 @@
 
 //This file is the amended version02
+// To push created branches to GitHub use "git push origin my_new_branch"
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
